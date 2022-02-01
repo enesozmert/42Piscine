@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+void ft_ultimate_div_mod(int *a, int *b)
+{
+	int div;
+	int mod;
+
+	div	= *a / *b;
+	mod = *a % *b;
+
+	printf("%d bölüm", div);
+	printf("%d kalan", mod);
+}
+
+int main()
+{
+	int a;
+	int b;
+
+	int *p_a;
+	int *p_b;
+	
+	a = 10;
+	b = 10;
+
+	p_a = &a;
+	p_b = &b;
+	
+	ft_ultimate_div_mod(p_a, p_b);
+}

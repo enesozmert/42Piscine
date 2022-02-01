@@ -1,0 +1,5 @@
+Credentials cache: API:EC3BCCCD-E63B-43DA-8CB7-52B0B62BF0BC
+        Principal: eozmert@42KOCAELI.COM.TR
+
+  Issued                Expires               Principal
+Nov 24 10:21:25 2021  Nov 24 20:21:16 2021  krbtgt/42KOCAELI.COM.TR@42KOCAELI.COM.TR
